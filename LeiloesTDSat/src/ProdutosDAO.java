@@ -52,7 +52,7 @@ public class ProdutosDAO {
         }
     }
 }
-    
+  
     public ArrayList<ProdutosDTO> listarProdutos(){     
         String sql = "SELECT * FROM produtos";
         conn = new conectaDAO().connectDB();
